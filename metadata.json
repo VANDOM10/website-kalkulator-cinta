@@ -1,0 +1,5 @@
+{
+  "name": "Kalkulator Cinta Gemini",
+  "description": "Sebuah permainan cinta yang seru dan menyenangkan didukung oleh Gemini untuk menghasilkan pesan cinta yang kreatif berdasarkan dua nama.",
+  "requestFramePermissions": []
+}
