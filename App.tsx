@@ -1,9 +1,9 @@
 
 import React, { useState, useCallback } from 'react';
-import { generateLoveMessage, generateLoveStory } from './services/geminiService';
-import ResultCard from './components/ResultCard';
-import Loader from './components/Loader';
-import HeartIcon from './components/HeartIcon';
+import { generateLoveMessage, generateLoveStory } from './services/geminiService.ts';
+import ResultCard from './components/ResultCard.tsx';
+import Loader from './components/Loader.tsx';
+import HeartIcon from './components/HeartIcon.tsx';
 
 const App: React.FC = () => {
   const [name1, setName1] = useState<string>('');
